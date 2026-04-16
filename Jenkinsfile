@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/Umair1012/django-notes-app.git'
+                git branch: 'main', url: 'https://github.com/MuhammadTalhaJoiya/django-notes-app.fork.git'
             }
         }
 
@@ -46,7 +46,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/Umair1012/django-notes-app.git'
+                git branch: 'main', url: 'https://github.com/MuhammadTalhaJoiya/django-notes-app.fork.git'
             }
         }
 
